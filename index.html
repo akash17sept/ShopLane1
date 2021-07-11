@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShopLane Shopping App</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./base.css" />
+        <link rel="stylesheet" href="./index.css" />
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+        <script src="./base.js"></script>
+        <script src="./index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="topbar">
+                <div id="left-menu">
+                    <div id="logo"><a href="./index.html"><span>Shop</span>lane</a></div>
+                    <a href="#clothing-section">Clothing</a>
+                    <a href="#accessory-section">Accessories</a>
+                </div>
+                <div id="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+                </div>
+                <div id="right-menu">
+                    <div id="cart-wrapper">
+                        <p id="cart-count">0</p>
+                        <a href="./checkout.html"><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                    <i class="fa fa-user-circle"></i>
+                </div>
+            </nav>
+            <main>
+                <section class="section-1">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1" />
+                            <input type="radio" name="radio-btn" id="radio2" />
+                            <input type="radio" name="radio-btn" id="radio3" />
+                            <input type="radio" name="radio-btn" id="radio4" />
+                            <div class="slide first">
+                                <img src="./96OnkX7.png" alt />
+                            </div>
+                            <div class="slide">
+                                <img src="./KtGxwnN.png" alt />
+                            </div>
+                            <div class="slide">
+                                <img src="./sfjg9R8.png" alt />
+                            </div>
+                            <div class="slide">
+                                <img src="./p0wdadG.png" alt />
+                            </div>
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="clothing-section" class="homepage-section">
+                    <h3 class="section-heading">Clothing for Men and Women</h3>
+                    <div id="clothing-grid" class="product-grid">
+                        <!-- <div class="product-card">
+                            <a href='#'>
+                                <img class="product-image" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg" />
+                                <div class="product-meta">
+                                    <h4>Men Navy Blue Solid Sweatshirt</h4>
+                                    <h5>United Colors of Benetton</h5>
+                                    <p>Rs 2599</p>
+                                </div>
+                            </a>
+                        </div> -->
+                    </div>
+                </section>
+    
+                <section id="accessory-section" class="homepage-section">
+                    <h3 class="section-heading">Accessories for Men and Women</h3>
+                    <div id="accessory-grid" class="product-grid">
+                    </div>
+                </section>
+            </main>
+
+            <img id="edyoda-project-logo" src="undefined - Imgur.png" alt="edyoda project logo" />
+            <footer>
+                <div>
+                    <p class="footer-heading">Online Store</p>
+                    <a href="/" class="footer-link">Men Clothing</a>
+                    <a href="/" class="footer-link">Women Clothing</a>
+                    <a href="/" class="footer-link">Men Accessories</a>
+                    <a href="/" class="footer-link">Women Accessories</a>
+                </div>
+                <div>
+                    <p class="footer-heading">Helpful Links</p>
+                    <a href="/" class="footer-link">Home</a>
+                    <a href="/" class="footer-link">About</a>
+                    <a href="/" class="footer-link">Contact</a>
+                </div>
+                <div>
+                    <p class="footer-heading">Partners</p>
+                    <a href="/" class="footer-link">Zara</a>
+                    <a href="/" class="footer-link">Pantaloons</a>
+                    <a href="/" class="footer-link">Levis</a>
+                    <a href="/" class="footer-link">UCB</a>
+                    <a href="/" class="footer-link">+ Many More</a>
+                </div>
+                <div>
+                    <p class="footer-heading">Address</p>
+                    <p class="footer-link">Building 101</p>
+                    <p class="footer-link">Central Avenue</p>
+                    <p class="footer-link">LA - 902722</p>
+                    <p class="footer-link">United States</p>
+                </div>
+            </footer>
+        </header>
+    </body>
+</html>
